@@ -1,2 +1,2 @@
-# livros550
-website de gestão do catálogo de livros técnicos - Grupo 550
+# inventario
+website de gestão do catálogo de material eletonico - Grupo 550
