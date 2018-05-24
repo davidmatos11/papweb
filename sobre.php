@@ -6,8 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <!DOCTYPE HTML>
 <head>
-<title>CATÁLOGO DE PRODUTOS TÉCNICOS | Agrupamento de Escolas da Batalha</title>
-<link rel="shorcut icon" href="images/LOGOAEB.jpg">
+<title>CATÁLOGO DE PRODUTOS ELETRÓNICOS | Agrupamento de Escolas da Batalha</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
@@ -20,7 +19,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="header">
 		<div class="headertop_desc">
 			<div class="call">
-				 <h3>CATÁLOGO DE PRODUTOS TÉCNICOS</h3>
+				 <h3>CATÁLOGO DE PRODUTOS ELETRÓNICOS</h3>
 			</div>
 			<div class="account_desc">
 				<ul>
@@ -41,6 +40,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					 else {
 						//Apresenta os links para Checkout ou para Conta
 						?>
+						<li><a href='#'>Checkout</a></li>
 						<li><a href='logout.php'>Logout</a></li>
 						<li><div class='dropdownmenu'>
 							<span><a href='#'><?php echo $_SESSION['UserLogin']?></a>&nbsp;<img src='images/user18.png'></span>
@@ -128,7 +128,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	     		<ul>
 			    	<li><a href="index.php">Home</a></li>
 			    	<li class="active"><a href="sobre.php">Sobre</a></li>
-			    	<li><a href="livroscatalogo.php">Requisitar</a></li>
+			    	<li><a href="listarequisitar.php">Requisitar</a></li>
 			    	<li><a href="contacto.php">Contacto</a></li>
 			    	<div class="clear"></div>
      			</ul>
@@ -145,16 +145,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="content">
 			<div class="section group">
 				<div class="col_1_of_3 span_1_of_3">
-					<h4>CATÁLOGO DE PRODUTOS TÉCNICOS</h4>
-					<img src="images/about_img.jpg" alt="">
-					<p>O CATÁLOGO DE PRODUTOS TÉCNICOS é uma plataforma de inventariação dos produtos de âmbito técnico disponíveis para apoio aos Cursos Profissionais de Informática do Agrupamento de Escolas da Batalha.</p>
-					<p>Como plataforma pretende fazer o registo de produtos técnicos, mantendo um inventário permamente e facilmente acessível através de métodos de pesquisa e ordenação dos títulos existentes.</p>
+					<h4>CATÁLOGO DE PRODUTOS ELETRÓNICOS</h4>
+					<p>O CATÁLOGO DE PRODUTOS ELETRÓNICOS é uma plataforma de inventariação dos produtos de âmbito técnico disponíveis para apoio aos Cursos Profissionais de Informática do Agrupamento de Escolas da Batalha.</p>
+					<p>Como plataforma pretende fazer o registo de produtos ELETRÓNICOS, mantendo um inventário permamente e facilmente acessível através de métodos de pesquisa e ordenação dos títulos existentes.</p>
 					<p>Possibilita ainda a gestão das requisição de produtos por alunos e professores desta instituição de ensino.</p>
 				</div>
 				
 				<div class="col_1_of_3 span_1_of_3">
 					<h4>COMO USAR ESTA PLATAFORMA?</h4>
-					<p>Os conteúdos existentes no CATÁLOGO DE PRODUTOS TÉCNICOS são produzidos internamente no Agrupamento de Escolas da Batalha, sendo o Grupo 550 - Informática o responsável pela atualização da informação aqui constante.</p>
+					<p>Os conteúdos existentes no CATÁLOGO DE PRODUTOS ELETRÓNICOS são produzidos internamente no Agrupamento de Escolas da Batalha, sendo o Grupo 550 - Informática o responsável pela atualização da informação aqui constante.</p>
 					<p>O acervo de produtos existente nesta plataforma está disponível a qualquer visitante para consulta informativa (título, editora, ano de edição, ISBN, sinopse).</p>
 					<p>Para aceder às funcionalidade de requisição e consultas avançadas é necessário um registo de utilizador. Registar-se é simples, só precisa de um endereço de email e uma password.</p>
 				    <div class="list">
@@ -173,26 +172,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<h4>COMO REQUISITAR OS PRODUTOS?</h4>
 					<div class="history-desc">
 						<div class="year"><p>UTENTES</p></div>
-						<p class="history">Os produtos do CATÁLOGO DE PRODUTOS TÉCNICOS podem ser requisitados por qualquer aluno ou professor do Agrupamento de Escolas da Batalha, respeitando o disposto no Regulamento desta iniciativa.</p>
+						<p class="history">Os produtos do CATÁLOGO DE PRODUTOS ELETRÓNICOS podem ser requisitados por qualquer aluno ou professor do Agrupamento de Escolas da Batalha, respeitando o disposto no Regulamento desta iniciativa.</p>
 						<div class="clear"></div>
 					</div>
 					<div class="history-desc">
 						<div class="year"><p>REQUISIÇÃO</p></div>
-						<p class="history">Para requisitar um produto o interessado terá que:</p>
+						<p class="history">Para requisitar um livro o interessado terá que:</p>
 						<div class="clear"></div>
 					</div>
 					<div class="list2">
 						<ul>
 							<li>Estar devidamente autenticado na plataforma.</li>
-							<li>Selecionar o produto e adicionar ao carrinho de compras.</b>
+							<li>Selecionar o livro e adicionar ao carrinho de compras.</b>
 							<li>Finalizar a operação de requisição.</b>
 							<li>Concordar com a declaração de empréstimo.</b>
 						</ul>
 					</div>
 					<div class="history-desc">
 						<div class="year"><p>ENTREGA E DEVOLUÇÃO</p></div>
-						<p class="history">A entrega do produto ao interessado será feita por um professsor responsável do Grupo 550.</p>
-						<p class="history">A devolução do produto será feita a um professsor responsável do Grupo 550.</p>
+						<p class="history">A entrega do livro ao interessado será feita por um professsor responsável do Grupo 550.</p>
+						<p class="history">A devolução do livro será feita a um professsor responsável do Grupo 550.</p>
 						<div class="clear"></div>
 					</div>
 				</div>
